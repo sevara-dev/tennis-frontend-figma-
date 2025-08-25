@@ -1,0 +1,294 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 1920px;
+    height: 1000px;
+    opacity: 1;
+}
+main::before{
+    background-image: url(hero.jpg);
+    background-size: cover;
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    filter:  brightness(0.6);
+    z-index: -1;
+    }
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    padding: 35px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    color: white;
+}
+.soc-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.line{
+    width: 1920px;
+    border: 1px solid white;
+    opacity: 0.3;
+}
+
+.hero-text{
+    font-weight: bold;
+    font-size: 48px;
+    width: 636px;
+    height: 201px;
+
+}
+.hero{
+    margin-top: 206px;
+    margin-left: 312px;
+     color: white;
+}
+.play{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.servis{
+margin-top: 190px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 40px;
+
+}
+.servis div{
+width: 267px;
+background-color: #8D86C9;
+padding: 20px;
+color: white;
+font-size: 18px;
+}
+.servis span{
+    display:flex;
+    align-items: center;
+    gap: 70px;
+}
+.advantage{
+    padding: 30px;
+    border: 1px solid #f7ece1;
+    width: 376px;
+height: 450px;
+}
+.advantage div{
+width: 376px;
+height: 450px;
+color: white;
+position: relative;
+z-index: -1;
+overflow: hidden;
+background-position: center;
+background-size: cover;
+}
+.advantage div::before{
+content: "";
+background-size: cover;
+position: absolute;
+inset: 0;
+background-position: center;
+filter: brightness(0.5);
+z-index: -1;
+}
+#advantages{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 150px 0;
+}
+
+.adv1::before{
+    background-image: url(card.jpg);
+}
+
+.adv2::before{
+    background-image: url(tennis.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.adv3::before{
+    background-image: url(ball.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.advantage h2{
+    position: relative;
+    top: 320px;
+    text-align: center;
+}
+
+#About{
+    width: 1076px;
+    height: 654px;
+    margin-left: 422px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.about{
+    width: 600px;
+    height: 600px;
+    padding: 50px;
+    padding-left: 100px;
+    position: relative;
+    left: 440px;
+    background-color: #f7ece1;
+    color: black;
+    z-index: -1;
+}
+.about ul{
+    list-style: square;
+    color: black;
+    display: block;
+}
+.about-img{
+    position: absolute;
+    background-image: url(abou.jpg);
+    width: 526px;
+    height: 514px;
+    background-position: center;
+    background-size: cover;
+}
+
+#trainers-section{
+    width: 1296px;
+    height: 523px;
+}
+
+.trainer-hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrows{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.arrows div{
+    padding: 14px;
+    background-color: #8D86C9;
+}
+.arrows img{
+    width: 31px;
+    height: 31px;
+}
+.trainers{
+    display: flex;
+    gap: 15px;
+}
+.trainer{
+    width: 196px;
+    height: 240px;
+    border: 1px solid #f7ece1;
+}
+.trainer  img{
+    width: 166px;
+    height: 240px;
+}
+
+#price{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.price div{
+    width: 496px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #8D86C9;
+    color: white;
+}
+.uslug{
+    display: flex;
+    justify-content: space-between;
+}
+.uslug-img{
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    width: 586px;
+    height: 270px;
+    opacity: 1;
+    color: white;
+   
+    
+}
+.uslug-img h2{
+    margin-top: 220px;
+    margin-left: 30px;
+}
+.uslug-img::before{
+    background-image: url(uslug.jpg);
+    background-size: cover;
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-position: center;
+    filter:  brightness(0.6);
+    z-index: -1;
+     
+    }
+    .uslug-border{
+        border: 1px solid #f7ece1;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+    padding: 25px;
+    background-color: #F7ECE1;
+    margin-top: 90px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+    color: black;
+    
+}
+.soc-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+footer p{
+    opacity: 0.3;
+}
